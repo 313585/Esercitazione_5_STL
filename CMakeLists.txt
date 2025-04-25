@@ -52,6 +52,7 @@ list(APPEND PolygonalMesh_INCLUDE ${src_paraview_includes})
 ################################################################################
 add_executable(${PROJECT_NAME}
       main.cpp
+      src/Utils.cpp
       ${PolygonalMesh_SOURCES}
       ${PolygonalMesh_HEADERS})
 

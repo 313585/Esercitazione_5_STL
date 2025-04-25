@@ -142,7 +142,7 @@ bool ImportCell1Ds(PolygonalMesh& mesh)
     return true;
 }
 
-bool ImportCell2D(PolygonalMesh& mesh)
+bool ImportCell2Ds(PolygonalMesh& mesh)
 {
     ifstream ifile;
 	ifile.open("./Cell2Ds.csv");	
